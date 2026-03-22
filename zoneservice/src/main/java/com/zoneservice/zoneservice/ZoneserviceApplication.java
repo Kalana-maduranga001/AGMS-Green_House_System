@@ -1,4 +1,4 @@
-package com.apigateway.apigateway;
+package com.zoneservice.zoneservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class ApigatewayApplication {
+public class ZoneserviceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ApigatewayApplication.class, args);
+		SpringApplication.run(ZoneserviceApplication.class, args);
 	}
 
 }
